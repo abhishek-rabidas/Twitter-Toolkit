@@ -1,10 +1,10 @@
 chrome.contextMenus.create({
     title: "TWITTER SOCIAL TOOLKIT",
     contexts: ["selection"],
-    onclick: myFunction
+    onclick: clickHandler
 });
 
-function myFunction(selectedText) {
+function clickHandler(selectedText) {
     const tweetContent = selectedText.selectionText;
     if (tweetContent.length <= 280) {
         const tweetUrl = "https://twitter.com/intent/tweet?text=" + selectedText.selectionText;
