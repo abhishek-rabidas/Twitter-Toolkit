@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Twitter Toolkit",
-    "description": "twitter tweet toolkit allows you to share with just one click",
+    "description": "This twitter toolkit is a chrome extension that allows you to share your tweet from anywhere with just one click",
     "background": {
         "scripts": ["background.js"]
     },
